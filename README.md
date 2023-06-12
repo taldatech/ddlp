@@ -51,19 +51,17 @@ Particles".
 ## Citation
 
 Daniel, Tal, and Aviv Tamar. "Unsupervised Object-centric Video Prediction with Deep Dynamic Latent Particles." arXiv
-preprint arXiv:??? (2023).
+preprint arXiv:2306.05957 (2023).
 
     @article{daniel23ddlp,
     author    = {Daniel, Tal and Tamar, Aviv},
-    title     = {Unsupervised Object-centric Video Prediction with Deep Dynamic Latent Particles},
-    booktitle = {},
-    month     = {},
-    year      = {2023},
-    pages     = {}
+    title     = {DDLP: Unsupervised Object-centric Video Prediction with Deep Dynamic Latent Particles},
+    journal = {arXiv preprint arXiv:2306.05957},
+    year      = {2023}
     }
 
 
-<h4 align="center">Preprint on ArXiv: <a href="https://arxiv.org">Soon</a></h4>
+<h4 align="center">Preprint on ArXiv: <a href="https://arxiv.org/abs/2306.05957">2306.05957</a></h4>
 
 ## Updates
-* 08.06.23 - Code coming soon!
+* 12.06.23 - Code coming real soon!
