@@ -1,0 +1,15 @@
+{
+  "ds": "phyre",
+  "ds_root": "/media/newhd/data/phyre/full",
+  "device": "cuda",
+  "batch_size": 32,
+  "lr": 0.00008,
+  "train_num_steps": 700000,
+  "diffusion_num_steps": 1000,
+  "loss_type": "l1",
+  "particle_norm": "minmax",
+  "diffuse_frames": 4,
+  "ddlp_dir": "./checkpoints/ddlp-phyre",
+  "ddlp_ckpt": "./checkpoints/ddlp-phyre/phyre_ddlp.pth",
+  "result_dir": null
+}
