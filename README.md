@@ -186,7 +186,7 @@ You can train the models on single-GPU machines and multi-GPU machines. For mult
 
 
 * Single-GPU machines: `python train_dlp.py -d {dataset}` / `python train_ddlp.py -d {dataset}`
-* Multi-GPU machines: `accelerate --config_file ./accel_conf.yml train_dlp_accelerate.py -d {dataset}` / `accelerate --config_file ./accel_conf.yml train_ddlp_accelerate.py -d {dataset}`
+* Multi-GPU machines: `accelerate launch --config_file ./accel_conf.yml train_dlp_accelerate.py -d {dataset}` / `accelerate --config_file ./accel_conf.yml train_ddlp_accelerate.py -d {dataset}`
 
 Config files for the datasets are located in `/configs/{ds_name}.json`. You can modify hyperparameters in these files.
 To generate a config file for a new datasets you can copy one of the files in `/confgis` or use the `/configs/generate_config_file.py` script.
@@ -215,11 +215,11 @@ Examples:
 
 *DLPv2*:
 
-`accelerate --config_file ./accel_conf.yml train_dlp_accelerate.py --dataset traffic_img`
+`accelerate launch --config_file ./accel_conf.yml train_dlp_accelerate.py --dataset traffic_img`
 
 *DDLP*:
 
-`accelerate --config_file ./accel_conf.yml train_ddlp_accelerate.py --dataset obj3d128`
+`accelerate launch --config_file ./accel_conf.yml train_ddlp_accelerate.py --dataset obj3d128`
 
 
 * Note: if you want multiple multi-GPU runs, each run should have a different accelerate config file (
