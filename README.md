@@ -1,12 +1,12 @@
-# ddlp-pytorch
+# ddlp
 
-Official PyTorch implementation of the paper "DDLP: Unsupervised Object-centric Video Prediction with Deep Dynamic Latent
+[TMLR 2024] Official PyTorch implementation of the paper "DDLP: Unsupervised Object-centric Video Prediction with Deep Dynamic Latent
 Particles".
 
 
 <h1 align="center">
   <br>
-	DDLP: Unsupervised Object-centric Video Prediction with<br> Deep Dynamic Latent Particles
+	[TMLR 2024] DDLP: Unsupervised Object-centric Video Prediction with<br> Deep Dynamic Latent Particles
   <br>
 </h1>
   <h3 align="center">
@@ -16,7 +16,9 @@ Particles".
   </h3>
 <h3 align="center">Official repository of DLPv2, DDLP and DiffuseDDLP</h3>
 
-<h4 align="center"><a href="https://taldatech.github.io/ddlp-web">Project Website</a> • <a href="">Video</a></h4>
+<h4 align="center">Transactions on Machine Learning Research 2024</h4>
+
+<h4 align="center"><a href="https://taldatech.github.io/ddlp-web">Project Website</a> • <a href="https://www.youtube.com/watch?v=3S2pKhi_ewY">Video</a></h4> • <a href="https://openreview.net/forum?id=Wqn8zirthg">OpenReview</a>
 
 <h4 align="center">
     <a href="https://colab.research.google.com/github/taldatech/ddlp"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
@@ -50,15 +52,17 @@ Particles".
 
 ## Citation
 
-Daniel, Tal, and Aviv Tamar. "DDLP: Unsupervised Object-centric Video Prediction with Deep Dynamic Latent Particles." arXiv
-preprint arXiv:2306.05957 (2023).
+Daniel, Tal, and Aviv Tamar. "DDLP: Unsupervised Object-centric Video Prediction with Deep Dynamic Latent Particles." Transactions on Machine Learning Research (TMLR) 2835-8856 (2024).
 
-    @article{daniel23ddlp,
-    author    = {Daniel, Tal and Tamar, Aviv},
-    title     = {DDLP: Unsupervised Object-centric Video Prediction with Deep Dynamic Latent Particles},
-    journal = {arXiv preprint arXiv:2306.05957},
-    year      = {2023}
-    }
+    @article{
+		daniel2024ddlp,
+		title={{DDLP}: Unsupervised Object-centric Video Prediction with Deep Dynamic Latent Particles},
+		author={Tal Daniel and Aviv Tamar},
+		journal={Transactions on Machine Learning Research},
+		issn={2835-8856},
+		year={2024},
+		url={https://openreview.net/forum?id=Wqn8zirthg},
+		}
 
 
 <h4 align="center">Preprint on ArXiv: <a href="https://arxiv.org/abs/2306.05957">2306.05957</a></h4>
@@ -79,9 +83,6 @@ preprint arXiv:2306.05957 (2023).
   * [Documentation and Notebooks](#documentation-and-notebooks)
   * [Repository Organization](#repository-organization)
 
-## Updates
-* 28.09.23  - Initial code release, interactive GUI will come later.
-* 08.06.23 - Code coming soon!
 
 ## Prerequisites
 
