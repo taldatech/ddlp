@@ -56,7 +56,7 @@ Daniel, Tal, and Aviv Tamar. "DDLP: Unsupervised Object-centric Video Prediction
 
     @article{
 		daniel2024ddlp,
-		title={{DDLP}: Unsupervised Object-centric Video Prediction with Deep Dynamic Latent Particles},
+		title={DDLP: Unsupervised Object-centric Video Prediction with Deep Dynamic Latent Particles},
 		author={Tal Daniel and Aviv Tamar},
 		journal={Transactions on Machine Learning Research},
 		issn={2835-8856},
